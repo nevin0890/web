@@ -1,60 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee</title>
 </head>
+
 <body>
-    <table>
+    <table class="table">
         <tr>
             <td>EMPLOYEE CODE</td>
-            <td><input type="text" name="" id=""></td>
+            <td><input  class="form-control"type="text" name="" id=""></td>
         </tr>
         <tr>
             <td>NAME</td>
-            <td><input type="TEXT"></td>
+            <td><input class="form-control" type="TEXT"></td>
         </tr>
         <tr>
             <td>ADDRESS</td>
-            <td><input type="textarea"></td>
+            <td><textarea  class="form-control" name="enter address" id="" cols="30" rows="10"></textarea></td>
         </tr>
 
         <tr>
             <td>PIN</td>
-            <td><input type="number"></td>
+            <td><input class="form-control" type="number"></td>
         </tr>
         <tr>
             <td>DESIGNATION</td>
-            <td><select name="" id="">
-                <option value="manager">manager</option>
-                <option value="developer"> senior developer</option>
-                <option value="developer"> junior developer</option>
-                <option value="tester">tester</option>
-                <option value="hr">hr</option>
-            </select></td>
+            <td><select class="form-control" name="" id="">
+                    <option value="manager">manager</option>
+                    <option value="developer"> senior developer</option>
+                    <option value="developer"> junior developer</option>
+                    <option value="tester">tester</option>
+                    <option value="hr">hr</option>
+                </select></td>
         </tr>
-       
+
         <tr>
             <td>COMPANY</td>
-            <td><input type="text"></td>
+            <td><input  class="form-control" type="text"></td>
         </tr>
         <tr>
             <td>EMAIL</td>
-            <td><input type="email"></td>
+            <td><input class="form-control" type="email"></td>
         </tr>
         <tr>
             <td>SALARY</td>
-            <td><input type="number"></td>
+            <td><input class="form-control" type="number"></td>
         </tr>
         <tr>
             <td></td>
-            <td><button>submit</button></td>
+            <td><button  class="btn btn-danger">submit</button></td>
         </tr>
 
 
     </table>
-    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
